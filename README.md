@@ -1,5 +1,7 @@
 Users Push Notification Service
 
+Video Demo - https://www.loom.com/share/c0a3f5e87da148678b1afa9467887552?sid=5b19dee3-8240-4579-8e9d-a780c7128a65
+
 This project is a microservices-based application for managing users and sending them push notifications. The application consists of two main microservices:
 
 •	User Service: Handles user creation and persists user data in a PostgreSQL database. When a user is created via an HTTP POST request, the service stores the user and emits an event to RabbitMQ.
